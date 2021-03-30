@@ -1,0 +1,83 @@
+/* Our Color pallet 
+8ED2C9 - Light Blue
+00AAA0 - Dark Blue
+F9E559 - Yellow 
+FFB85F - Orange
+8EDC9D - Light Green
+473E3F - Brown*/
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #00AAA0;
+    background-image: url("imgs/data-vis.png");
+      /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mac-container{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+h1{
+    margin-top: 2%;
+    margin-left:33%;
+    width: 33%;
+    text-align: center;
+    background-color: #FFB85F;
+    border-radius: 1rem;
+}
+
+h2{
+    background-color: #8EDC9D;
+    border-radius: 1rem; 
+    text-align: center;
+}
+
+#push{
+    margin-left:27rem;
+}
+
+.board-photos{
+    width: 13rem;
+    height: 13rem;
+    background-color: #000;
+    border-radius: 40%;
+}
+
+.board-photos img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 40%;
+    display: block;
+    transform: translate(15%, 15%);
+    transition: all .5s;
+    
+}
+.board-photos img:hover{
+    width:12rem;
+    height:12rem;
+}
+
+.bubble{
+    background-color:#8ED2C9;
+    padding:1rem;
+    border-radius: 2rem;
+    transition: opacity 0.3s;
+
+}
+
+.space{
+    margin:5%;
+}
+
+.emph{
+   background-color: #FFB85F;
+   border-radius: .2rem;
+}
+
+
